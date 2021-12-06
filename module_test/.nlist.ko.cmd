@@ -1,0 +1,1 @@
+cmd_/home/yeop/LinuxProject/linuxGit/module_test/nlist.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/yeop/LinuxProject/linuxGit/module_test/nlist.ko /home/yeop/LinuxProject/linuxGit/module_test/nlist.o /home/yeop/LinuxProject/linuxGit/module_test/nlist.mod.o;  true

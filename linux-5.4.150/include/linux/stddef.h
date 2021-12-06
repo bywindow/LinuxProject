@@ -5,7 +5,11 @@
 #include <uapi/linux/stddef.h>
 
 #undef NULL
+#if defined(_cplusplus)
+#define NULL 0
+#else
 #define NULL ((void *)0)
+#endif
 
 enum {
 	false	= 0,
